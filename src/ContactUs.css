@@ -1,0 +1,158 @@
+/* General Styles */
+.container.contact-us {
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1400px;
+}
+
+/* Title and Text */
+.contact-us h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-us p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+/* Form Styles */
+.contact-us .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-us label {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.contact-us .form-control {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+/* Yellow background container styling */
+.yellow-background {
+    background-color: goldenrod;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 490px;
+    min-width: 150px;
+    margin-top: 0;
+    position: relative;
+    top: -70px;
+    margin-left: 5px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.logo-container svg {
+    width: auto;
+    height: 300px;
+    min-width: 100px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .yellow-background {
+        width: 100%;
+        margin-top: 20px;
+        top: 0;
+    }
+
+    .specific-form-group,
+    .phone-group {
+        right: 0;
+    }
+
+    .specific-form {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .yellow-background {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .specific-form {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
+}
+
+/* Contact Details */
+.contact-details .bi {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.contact-details h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+}
+
+.form-check-label a {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
